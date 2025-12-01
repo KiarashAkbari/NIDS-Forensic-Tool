@@ -5,12 +5,12 @@
 ![TensorFlow](https://img.shields.io/badge/TENSORFLOW-KERAS-000000?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/INTERFACE-STREAMLIT-D71920?style=for-the-badge&logo=streamlit&logoColor=white)
 
-```text
 SYSTEM_STATUS:   ONLINE
 ARCHITECTURE:    DEEP_LEARNING_AUTOENCODER
 TARGET:          DOS_ATTACK_VECTORS
 UI_THEME:        INDUSTRIAL
 DEPLOYMENT:      STREAMLIT_CLOUD
+
 ````
 
 -----
@@ -156,5 +156,6 @@ GITHUB:       [github.com/KiarashAkbari](https://github.com/KiarashAkbari)
 -----
 
 *For educational and forensic research purposes only.*
+
 
 
