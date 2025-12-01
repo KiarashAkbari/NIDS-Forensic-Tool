@@ -1,3 +1,12 @@
+"""
+-------------------------------------------------------------------------
+PROJECT: AI-POWERED NETWORK INTRUSION DETECTION SYSTEM (NIDS)
+DEVELOPER: KIARASH AKBARI
+COURSE: COMPUTER NETWORKS & SOFTWARE ENGINEERING
+GITHUB: https://github.com/KiarashAkbari
+-------------------------------------------------------------------------
+"""
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -58,13 +67,12 @@ st.markdown("""
     }
 
     /* NAVIGATION BUTTON STYLING */
-    /* This targets the buttons in the top row specifically */
     div[data-testid="stHorizontalBlock"]:nth-of-type(1) button {
         background-color: transparent !important;
         border: none !important;
         color: #000000 !important;
         font-weight: 700 !important;
-        font-size: 0.9rem !important; /* Slightly smaller for better fit */
+        font-size: 0.85rem !important; 
         text-transform: uppercase;
         margin-top: 10px;
         width: 100%;
@@ -73,8 +81,8 @@ st.markdown("""
     }
     div[data-testid="stHorizontalBlock"]:nth-of-type(1) button:hover {
         color: #D71920 !important; /* Red Hover */
-        text-decoration: underline !important; /* FIXED: Line goes under */
-        text-underline-offset: 5px; /* FIXED: Pushes line down away from text */
+        text-decoration: underline !important;
+        text-underline-offset: 5px;
         text-decoration-thickness: 2px;
         box-shadow: none !important;
     }
@@ -136,7 +144,7 @@ st.markdown("""
     div[data-testid="stSlider"] p, div[data-testid="stMarkdownContainer"] p { color: #000000 !important; }
     h3 { color: #000000 !important; }
 
-    /* ACTION BUTTONS (Download, etc - NOT Header) */
+    /* ACTION BUTTONS (Download, etc) */
     div:not([data-testid="stHorizontalBlock"]:nth-of-type(1)) > div.stButton > button {
         background-color: #000000;
         color: #f2f2f2;
@@ -166,7 +174,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# 5. NAVIGATION BAR (Top Right)
+# 5. NAVIGATION BAR
 c_spacer, c_nav1, c_nav2, c_nav3, c_nav4 = st.columns([5, 1.2, 1.2, 1.2, 1.2])
 
 with c_spacer:
@@ -200,9 +208,18 @@ if st.session_state.page == "DASHBOARD":
     st.sidebar.markdown("## // CONFIGURATION")
     uploaded_file = st.sidebar.file_uploader("INPUT_SOURCE [.CSV]", type=["csv"])
     threshold = st.sidebar.slider("SENSITIVITY_THRESHOLD", 0.0, 0.1, 0.05, 0.001)
+    
     st.sidebar.markdown("---")
     st.sidebar.markdown("SYSTEM_STATUS: **ONLINE**")
-    st.sidebar.markdown("VERSION: **5.4.0**")
+    st.sidebar.markdown("VERSION: **5.5.0**")
+    
+    # --- NAME AND INFO GOES HERE ---
+    st.sidebar.markdown("---")
+    st.sidebar.markdown("## // DEVELOPER_INFO")
+    # REPLACE THESE WITH YOUR DETAILS
+    st.sidebar.markdown("**ENGINEER:** `KIARASH AKBARI`")
+    st.sidebar.markdown("**DEPT:** `COMPUTER ENGINEERING`")
+    st.sidebar.markdown("**GITHUB:** [github.com/KiarashAkbari](https://github.com)")
 
     # NIDS LOGIC
     if model is None or scaler is None:
