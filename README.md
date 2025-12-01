@@ -5,11 +5,12 @@
 ![TensorFlow](https://img.shields.io/badge/TENSORFLOW-KERAS-000000?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/INTERFACE-STREAMLIT-D71920?style=for-the-badge&logo=streamlit&logoColor=white)
 
-
+```text
 SYSTEM_STATUS:   ONLINE
 ARCHITECTURE:    DEEP_LEARNING_AUTOENCODER
 TARGET:          DOS_ATTACK_VECTORS
-UI_THEME:        INDUSTRIAL
+UI_THEME:        NOTHING_OS (INDUSTRIAL)
+DEPLOYMENT:      STREAMLIT_CLOUD
 ````
 
 -----
@@ -33,7 +34,7 @@ Unlike traditional signature-based firewalls, this system utilizes an **Autoenco
 
 The system follows a strict linear processing pipeline:
 
-```
+```text
 [ SOURCE_DATA ] (.pcap/.csv)
        |
        v
@@ -64,7 +65,7 @@ The system follows a strict linear processing pipeline:
 ### 1\. CLONE\_REPOSITORY
 
 ```bash
-git clone [https://github.com/YOUR_USERNAME/NIDS-Forensic-Tool.git](https://github.com/YOUR_USERNAME/NIDS-Forensic-Tool.git)
+git clone [https://github.com/KiarashAkbari/NIDS-Forensic-Tool.git](https://github.com/KiarashAkbari/NIDS-Forensic-Tool.git)
 cd NIDS-Forensic-Tool
 ```
 
@@ -83,7 +84,35 @@ streamlit run app.py
 
 -----
 
-## // 04\_FILE\_STRUCTURE
+## // 04\_WEB\_INTERFACE\_MANUAL
+
+The project features a **Forensic Dashboard** built with Streamlit, styled with a custom "Nothing OS" CSS injection for high-contrast readability.
+
+### [ LIVE\_DEPLOYMENT ]
+
+**ACCESS\_TERMINAL:** [CLICK\_HERE\_TO\_OPEN\_APP]([https://share.streamlit.io](https://nidsforensictool.streamlit.app/)) 
+
+### [ INTERFACE\_MODULES ]
+
+**1. CONFIGURATION\_SIDEBAR**
+
+  * **INPUT\_STREAM:** Drag-and-drop `.csv` traffic logs.
+  * **SENSITIVITY\_THRESHOLD:** Adjustable slider to tune the AI's strictness (0.001 - 0.1).
+
+**2. VISUAL\_FEED**
+
+  * **SIGNAL (Grey):** Normal traffic patterns.
+  * **THREAT (Red):** Anomalies detected above the threshold.
+  * **LOG\_SCALE:** Uses logarithmic scaling to visualize massive DoS spikes clearly.
+
+**3. FORENSIC\_LOGS**
+
+  * **DATA\_GRID:** Detailed table of all flagged packets.
+  * **EXPORT:** Download report as `threat_report.csv` for further analysis.
+
+-----
+
+## // 05\_FILE\_STRUCTURE
 
 ```text
 /ROOT
@@ -102,7 +131,7 @@ streamlit run app.py
 
 -----
 
-## // 05\_PERFORMANCE\_METRICS
+## // 06\_PERFORMANCE\_METRICS
 
 **DATASET:** CIC-IDS2017 (Canadian Institute for Cybersecurity)
 
@@ -116,18 +145,15 @@ streamlit run app.py
 
 -----
 
-## // 06\_ENGINEER\_INFO
+## // 07\_ENGINEER\_INFO
 
 ```text
-DEVELOPER: KIARASH AKBARI
-COURSE: COMPUTER NETWORKS & SOFTWARE ENGINEERING
-GITHUB: https://github.com/KiarashAkbari
+DEVELOPER:    KIARASH AKBARI
+COURSE:       COMPUTER NETWORKS & SOFTWARE ENGINEERING
+GITHUB:       [github.com/KiarashAkbari](https://github.com/KiarashAkbari)
 ```
 
 -----
 
 *For educational and forensic research purposes only.*
-
-
-
 
