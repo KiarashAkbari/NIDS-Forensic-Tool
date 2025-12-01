@@ -5,11 +5,11 @@
 ![TensorFlow](https://img.shields.io/badge/TENSORFLOW-KERAS-000000?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/INTERFACE-STREAMLIT-D71920?style=for-the-badge&logo=streamlit&logoColor=white)
 
-```text
+
 SYSTEM_STATUS:   ONLINE
 ARCHITECTURE:    DEEP_LEARNING_AUTOENCODER
 TARGET:          DOS_ATTACK_VECTORS
-UI_THEME:        NOTHING_OS (INDUSTRIAL)
+UI_THEME:        INDUSTRIAL
 ````
 
 -----
@@ -33,7 +33,7 @@ Unlike traditional signature-based firewalls, this system utilizes an **Autoenco
 
 The system follows a strict linear processing pipeline:
 
-```text
+```
 [ SOURCE_DATA ] (.pcap/.csv)
        |
        v
@@ -119,11 +119,9 @@ streamlit run app.py
 ## // 06\_ENGINEER\_INFO
 
 ```text
-DEVELOPER:    [ Your Name ]
-ID:           [ Your ID ]
-DEPARTMENT:   Computer Engineering
-UNIVERSITY:   [ Your University ]
-GITHUB:       [github.com/](https://github.com/)[YourUsername]
+DEVELOPER: KIARASH AKBARI
+COURSE: COMPUTER NETWORKS & SOFTWARE ENGINEERING
+GITHUB: https://github.com/KiarashAkbari
 ```
 
 -----
@@ -132,3 +130,4 @@ GITHUB:       [github.com/](https://github.com/)[YourUsername]
 
 ```
 ```
+
