@@ -9,7 +9,7 @@
 SYSTEM_STATUS:   ONLINE
 ARCHITECTURE:    DEEP_LEARNING_AUTOENCODER
 TARGET:          DOS_ATTACK_VECTORS
-UI_THEME:        NOTHING_OS (INDUSTRIAL)
+UI_THEME:        INDUSTRIAL
 DEPLOYMENT:      STREAMLIT_CLOUD
 ````
 
@@ -156,4 +156,5 @@ GITHUB:       [github.com/KiarashAkbari](https://github.com/KiarashAkbari)
 -----
 
 *For educational and forensic research purposes only.*
+
 
