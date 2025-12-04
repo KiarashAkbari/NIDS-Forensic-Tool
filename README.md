@@ -90,7 +90,7 @@ The project features a **Forensic Dashboard** built with Streamlit, styled with 
 
 ### [ LIVE\_DEPLOYMENT ]
 
-**ACCESS\_TERMINAL:** [CLICK\_HERE\_TO\_OPEN\_APP]([https://share.streamlit.io](https://nidsforensictool.streamlit.app/)) 
+**ACCESS\_TERMINAL:** [CLICK_HERE_TO_OPEN_APP](https://nidsforensictool.streamlit.app/)
 
 ### [ INTERFACE\_MODULES ]
 
@@ -156,6 +156,7 @@ GITHUB:       [github.com/KiarashAkbari](https://github.com/KiarashAkbari)
 -----
 
 *For educational and forensic research purposes only.*
+
 
 
 
